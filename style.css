@@ -1,0 +1,63 @@
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #424242;
+    margin: 0;
+}
+
+.container {
+    border-top: 10px solid #e91d63;
+    border-bottom: 10px solid #e91d63;
+    border-radius: 5px;
+}
+
+.left img {
+    border: 1px solid #e91d63;
+    border-radius: 50%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    padding: 40px; 
+  }
+  
+  .left {
+    width: 25%;
+  }
+
+  .right span {
+      color: #e91d63;
+  }
+
+  .left h4 {
+      color: #e91d63;
+  }
+  
+  .right {
+    width: 75%;
+  }
+
+  .right p {
+      font-size: 16px;
+  }
+
+  .right p :nth-child(1) {
+      padding-top: 5px;
+  }
+
+  .right p a {
+      color: #424242;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  hr {
+    border: 3px double #e91d63;
+}
